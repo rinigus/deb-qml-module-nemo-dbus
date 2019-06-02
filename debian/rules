@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export QT_SELECT=qt5
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -rf debian/qml-module-nemo-dbus/opt

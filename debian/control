@@ -1,0 +1,16 @@
+Source: qml-module-nemo-dbus
+Section: lib
+Priority: optional
+Maintainer: Rinigus <rinigus.git@gmail.com>
+Build-Depends: debhelper (>= 10), qt5-qmake, qtbase5-dev, qtdeclarative5-dev
+Standards-Version: 4.1.2
+Homepage: https://git.merproject.org/mer-core/nemo-qml-plugin-dbus
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/qml-module-nemo-dbus.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/qml-module-nemo-dbus.git
+
+Package: qml-module-nemo-dbus
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Nemo QML Plugin D-Bus
+ The Nemo Mobile D-Bus QML Plugin allows you to access services on the system
+ and session bus, as well as provide your own services.
